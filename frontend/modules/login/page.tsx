@@ -1,6 +1,4 @@
 import { RegistrationCardWrapper } from "./registration-card/registration-card-wrapper"
-import { createPost } from "@/app/server/actions/create-post"
-
 export default function Login() {
 
   return (
