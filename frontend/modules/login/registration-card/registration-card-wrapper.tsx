@@ -12,17 +12,11 @@ import {
   CardTitle,
 } from "@/shared/shad-cn/ui/card"
 
-export function CardDemo() {
+export function RegistrationCardWrapper() {
   return (
-    <Card className="w-full max-w-sm">
+    <Card className="w-full max-w-sm p-6 rounded-[20px]">
       <CardHeader>
         <CardTitle>Login to your account</CardTitle>
-        <CardDescription>
-          Enter your email below to login to your account
-        </CardDescription>
-        <CardAction>
-          <Button variant="link">Sign Up</Button>
-        </CardAction>
       </CardHeader>
       <CardContent>
         <form>
@@ -54,9 +48,6 @@ export function CardDemo() {
       <CardFooter className="flex-col gap-2">
         <Button type="submit" className="w-full">
           Login
-        </Button>
-        <Button variant="outline" className="w-full">
-          Login with Google
         </Button>
       </CardFooter>
     </Card>
